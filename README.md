@@ -1,36 +1,48 @@
-# Student Performance Prediction System
+# 🎓 Student Performance Prediction System
 
-## Project Overview
-This project predicts whether a student will PASS or FAIL based on:
+## 📌 Project Overview
+
+The Student Performance Prediction System is a Machine Learning project designed to predict whether a student is likely to **PASS** or **FAIL** based on academic and behavioral factors.
+
+The model analyzes key student attributes such as:
 
 - Study Hours
-- Attendance
-- Previous Scores
+- Attendance Percentage
+- Previous Academic Scores
 
-The project uses Machine Learning with Logistic Regression.
+A Logistic Regression classification algorithm is used to make predictions and evaluate student performance.
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- Git
-- GitHub
+---
 
-## Project Steps
-1. Load Dataset
-2. Data Preprocessing
-3. Train Logistic Regression Model
-4. Evaluate Accuracy
-5. Predict Student Result
+## 🚀 Features
 
-## Files
-- student_model.py : Main machine learning code
+- Student performance prediction (Pass/Fail)
+- Data preprocessing and cleaning
+- Machine Learning model training
+- Accuracy evaluation
+- Real-time prediction using user input
 
-## Sample Output
+---
 
-Model Accuracy: 50.0%
+## 🛠️ Technologies Used
 
-Student will PASS
+| Technology | Purpose |
+|------------|----------|
+| Python | Programming Language |
+| Pandas | Data Manipulation |
+| NumPy | Numerical Operations |
+| Scikit-learn | Machine Learning |
+| Git | Version Control |
+| GitHub | Project Hosting |
 
-## Author
-Shwetansh Singh
+---
+
+## 📂 Project Structure
+
+```text
+Student-Performance-Prediction-System/
+│
+├── student_model.py
+├── student_data.csv
+├── README.md
+└── requirements.txt
